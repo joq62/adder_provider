@@ -1,0 +1,10 @@
+{application,adder_provider,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{adder_provider_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[adder_provider,adder_provider_app,adder_provider_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
