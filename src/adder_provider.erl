@@ -76,6 +76,8 @@ ping()->
 	  ignore.
 init([]) ->
   
+    application:start(log),
+    application:start(rd),
     application:start(adder),
 
     ?LOG_NOTICE("Server started ",[]),
